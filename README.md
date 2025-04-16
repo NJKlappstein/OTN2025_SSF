@@ -9,7 +9,7 @@ The workshop will start by covering the neccessary statistical background, follo
 2. Formulate SSFs as GAM-like models to include smooth (i.e., non-linear and random) effects. 
 3. Learn how to fit and interpret SSFs with non-linear effects in R. 
 
-#### R tutorial structure
+#### R tutorial outline
 In the R tutorial, we will cover how to prepare data for SSFs in the amt package, and fit models in mgcv. We will focus on building complexity through 4 model formulations:
 
 1. A simple SSF with a parametric movement kernel and log-linear selection for depth.
@@ -20,7 +20,7 @@ In the R tutorial, we will cover how to prepare data for SSFs in the amt package
 We will use the gratia package for visualisation and interpretation. 
 
 ### Repository structure and set-up instructions
-You can clone the repository, or you can download the data and code as a zip folder by using the '<> Code' dropdown menu at the top right. You can open the R project file, which should avoid any problems with the working directory. The repository has the following folders/files:
+You can clone the repository, or you can download the data and code as a zip folder by using the '<> Code' dropdown menu at the top right. Once you have the files on your computer, open the R project file. The repository has the following folders/files:
 
 1. The *code* folder contains the analysis code in both a script (petrel_ssf.R) and an RMarkdown (petrel_ssf.Rmd) format. There is also a knitted PDF file of the RMarkdown. 
 2. The *data* folder contains a csv of the petrel GPS locations and a bathymetry raster obtained from the GEBCO project (https://www.gebco.net/). 
